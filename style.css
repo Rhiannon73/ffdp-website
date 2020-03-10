@@ -1,0 +1,195 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: black;
+	color: white;
+	margin: 0;
+	padding: 0;
+	font-family: 'Cabin', sans-serif;
+}
+header{
+	display: flex;
+	justify-content: space-between; 
+}
+header a{
+	padding: 10px 30px 10px 30px;
+}
+nav{
+	position: fixed;
+	background-color: #1D1D1E;
+	text-align: center;
+	left: 0;
+	right: 0;
+	top: 0;	
+
+}
+nav ul{
+	display: flex;
+	justify-content: center; 
+}
+nav li{
+	list-style-type: none;
+	display: inline-block;
+	margin: 0% 10%;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+h2{
+	font-family: 'Calistoga', cursive;
+	color: #FF0700;
+	font-size: 35px;
+}
+
+.title{
+	font-size: 68px;
+	background: -webkit-linear-gradient(#F1AEAE, #B00303);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-family: 'Exo 2', black;
+	text-align: center;
+}
+.albums{
+	padding: 0px 0px 0px 50px;
+}
+.full-album{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.album-list{
+	display: flex;
+	justify-content: space-between;
+	font-size: 18px;
+}
+.album-name-list{
+	text-align: left;
+	padding-left: 0px;
+}
+
+.album-name-list ul{
+	list-style-type: none;
+}
+.album-year-list{
+	text-align: right;
+}
+.album-year-list ul{
+	list-style-type: none;
+}
+.album-image{
+	padding: 0px 100px 0px 0px;
+	margin: -90px 0px 0px 0px;
+}
+.album-image img{
+	width: 550px;
+}
+
+
+.about{
+	display: flex;
+	justify-content: space-between;
+	margin: 70px 0px 0px 0px;
+}
+.about-image{
+	margin: 0px 50px 10px 50px;
+	width: 30%;
+}
+.about-image img{
+	width: 100%;
+}
+.about-text{
+	margin: 0px 50px 10px 50px;
+	line-height: 1.6;
+	letter-spacing: 2px;
+	width: 70%;
+}
+.about-text p{
+	font-size: 18px;
+}
+.about-text h2{
+	margin: -10px 0px 0px -30px;
+
+}
+/* .shows{
+	display: flex;
+	width: 100%;
+} */
+
+.shows h2{
+	margin: 0px 0px 0px 40px;
+
+}
+.shows a{
+	font-family: 'Calistoga', cursive;
+	color: #FF0700;
+	background-color: #262121;
+	padding: 5px 20px 5px 20px;
+}
+.shows-list{
+	display: flex;
+	justify-content: space-between;
+	font-size: 18px;
+	width: 74%;
+}
+.shows-name-list{
+	text-align: left;
+	padding-left: 0px;
+}
+
+.shows-name-list ul{
+	list-style-type: none;
+}
+.shows-buy-list{
+	text-align: right;
+}
+
+.shows-buy-list li {
+	margin-top: 14%;
+}
+
+.shows-buy-list a:hover {
+	background-color: #0A0908;
+}
+.shows-buy-list ul{
+	list-style-type: none;
+}
+.image-one{
+	margin-left: 50px;
+	width: 30%;
+}
+.image-one img{
+	width: 115%;
+}
+.invisible {
+	visibility: hidden;
+}
+
+
+.footer{
+	background-color: #262121;
+	display: flex;
+	padding: 0px 50px 20px 50px;
+	justify-content: space-between;
+}
+.socials img{
+	margin: 0px 50px -80px 50px;
+}
+.email{
+	color: #979797;
+	font-size: 25px;
+	margin: 0px 150px 0px 50px;
+}
+.email p{
+	margin: 20px 20px 30px 45px;
+}
+input{
+	background-color: #1D1D1E;
+  	color: #979797;
+  	border: 1px solid #ccc;
+  	height: 40px;
+  	width: 200px;
+}
